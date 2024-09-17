@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #ff6f61;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.nav-menu a:hover {
+    background-color: #ff856f;
+    border-radius: 5px;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-image, .about-image, .products-image, .contact-image {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#home {
+    background-color: #ffe5d9;
+}
+#home p{
+    font-size: 22px;
+}
+
+#about {
+    background-color: #0071aa;
+    color: white; /* Change text color to white */
+    padding: 100px 20px;
+    text-align: center;
+}
+#about p {
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+}
+#about h1{
+    color: #000;
+    font-size: 40px;
+}
+#about h2{
+    color: yellow;
+}
+#home h1{
+    color: #000;
+    font-size: 40px;
+}
+#products h1{
+    color: #000;
+    font-size: 40px;
+}
+#contact h1{
+    color: #000;
+    font-size: 40px;
+}
+#contact p{
+    font-size: 22px;
+}
+#products {
+    background-color: #f1c0b9;
+}
+#products p{
+    font-size: 22px;
+}
+
+#contact {
+    background-color: #f9d5cc;
+}
+#home span{
+    color: #0071aa;
+}
+#products img{
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+}
